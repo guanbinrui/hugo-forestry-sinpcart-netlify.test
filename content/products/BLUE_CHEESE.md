@@ -4,6 +4,6 @@ id = "BLUE_CHEESE"
 image = "/uploads/cheddar.jpg"
 name = "Blue cheese"
 price = 12.95
-product_url = "https://snipcart-hugo-forestry.netlify.com"
+product_url = "https://cheese-shop.netlify.com/"
 
 +++
