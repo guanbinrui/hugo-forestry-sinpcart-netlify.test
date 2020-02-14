@@ -1,4 +1,48 @@
 ---
 label: Product
 hide_body: true
-fields: []
+fields:
+- name: id
+  type: text
+  config:
+    required: false
+  label: id
+  description: The internal id of product.
+- name: name
+  type: text
+  config:
+    required: false
+  label: Name
+  description: A brief name of product.
+- name: price
+  type: number
+  label: Price
+  description: The price of product in US dollors.
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Description
+  description: A nice description for product.
+- name: image
+  type: file
+  config:
+    maxSize: 250
+  label: Image
+  description: A image presents product to end users.
+- name: product_url
+  type: text
+  config:
+    required: false
+  label: Product URL
+  description: The URL of product.
