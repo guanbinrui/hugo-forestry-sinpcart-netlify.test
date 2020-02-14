@@ -27,7 +27,9 @@
   <body>
     {{ partial "header.html" }}
     <main class="products">
-      {{ range .Site.Data.products }} {{ partial "product.html" . }} {{ end }}
+      {{ range where .Site.RegularPages "Section" "products" }}
+        {{ partial "product.html" .Params }}
+      {{ end }}
     </main>
     {{ partial "footer.html" }}
   </body>
