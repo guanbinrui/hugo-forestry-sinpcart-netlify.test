@@ -46,3 +46,5 @@ fields:
     required: false
   label: Product URL
   description: The URL of product.
+pages:
+- content/products/GOUDA_WHEEL.md
