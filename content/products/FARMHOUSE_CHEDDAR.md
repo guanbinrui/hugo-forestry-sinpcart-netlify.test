@@ -4,6 +4,6 @@ id = "FARMHOUSE_CHEDDAR"
 image = "/uploads/camembert.jpg"
 name = "Farmhouse Cheddar"
 price = 4.95
-product_url = "https://snipcart-hugo-forestery.netlify.com"
+product_url = "https://cheese-shop.netlify.com/"
 
 +++
