@@ -47,4 +47,5 @@ fields:
   label: Product URL
   description: The URL of product.
 pages:
+- content/products/FARMHOUSE_CHEDDAR.md
 - content/products/GOUDA_WHEEL.md
